@@ -7,7 +7,11 @@ namespace HashSetExample
     {
         static void Main(string[] args)
         {
-           
+            var names = new HashSet<string>();
+
+            names.Add("Shihab");
+            names.Add("Mishu");
+            names.Add("Rayhan");
         }
     }
 }
